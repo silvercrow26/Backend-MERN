@@ -1,0 +1,20 @@
+Pasos para crear un backend
+
+1. Instalar dependencias
+
+    npm init -y -> crea el package.json con toda la config por defecto
+    "bcryptjs": "^2.4.3", -> Encriptar contraseñas
+    "cors": "^2.8.5", -> Sistema de seguridad, investigar más
+    "dotenv": "^16.0.3", -> Manejar variables de entorno
+    "express": "^4.18.2", -> Framework para aplicaciones web
+    "express-validator": "^6.14.2", -> Sirve para hacer validaciones en los middleware
+    "jsonwebtoken": "^8.5.1", -> Sirve para hacer token web de autenticacion
+    "mongoose": "^6.7.0" -> Sirve para hacer la conexión con la base de datos mongo
+
+2. Actualizar scripts del package.json
+
+3. Crear index, servidor web, Base de datos, Cors, Middleware, Directorio publico
+Lectura y parseo del body, Rutas, Escuchar peticiones.
+
+4. Crear rutas, archivo de conexión a la bd, modelos.
+5. Validaciones, encryptar, token.
